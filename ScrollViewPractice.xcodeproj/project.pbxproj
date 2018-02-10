@@ -12,6 +12,9 @@
 		F77B253420028FE5000CBF21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F77B253220028FE5000CBF21 /* Main.storyboard */; };
 		F77B253620028FE5000CBF21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F77B253520028FE5000CBF21 /* Assets.xcassets */; };
 		F77B253920028FE5000CBF21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F77B253720028FE5000CBF21 /* LaunchScreen.storyboard */; };
+		F77B2541200298AB000CBF21 /* PagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77B2540200298AB000CBF21 /* PagingViewController.swift */; };
+		F77B254320029D54000CBF21 /* PinchToZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77B254220029D54000CBF21 /* PinchToZoomViewController.swift */; };
+		F77B25482002A4D5000CBF21 /* TwitterProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77B25472002A4D5000CBF21 /* TwitterProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		F77B253520028FE5000CBF21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F77B253820028FE5000CBF21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F77B253A20028FE5000CBF21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F77B2540200298AB000CBF21 /* PagingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingViewController.swift; sourceTree = "<group>"; };
+		F77B254220029D54000CBF21 /* PinchToZoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchToZoomViewController.swift; sourceTree = "<group>"; };
+		F77B25472002A4D5000CBF21 /* TwitterProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +60,41 @@
 		F77B252D20028FE5000CBF21 /* ScrollViewPractice */ = {
 			isa = PBXGroup;
 			children = (
+				F77B25462002A4BA000CBF21 /* Image Pinching */,
+				F77B25452002A4A7000CBF21 /* Verical Scrolling */,
+				F77B25442002A496000CBF21 /* Paging */,
 				F77B252E20028FE5000CBF21 /* AppDelegate.swift */,
-				F77B253020028FE5000CBF21 /* ViewController.swift */,
 				F77B253220028FE5000CBF21 /* Main.storyboard */,
 				F77B253520028FE5000CBF21 /* Assets.xcassets */,
 				F77B253720028FE5000CBF21 /* LaunchScreen.storyboard */,
 				F77B253A20028FE5000CBF21 /* Info.plist */,
+				F77B25472002A4D5000CBF21 /* TwitterProfileViewController.swift */,
 			);
 			path = ScrollViewPractice;
+			sourceTree = "<group>";
+		};
+		F77B25442002A496000CBF21 /* Paging */ = {
+			isa = PBXGroup;
+			children = (
+				F77B2540200298AB000CBF21 /* PagingViewController.swift */,
+			);
+			path = Paging;
+			sourceTree = "<group>";
+		};
+		F77B25452002A4A7000CBF21 /* Verical Scrolling */ = {
+			isa = PBXGroup;
+			children = (
+				F77B253020028FE5000CBF21 /* ViewController.swift */,
+			);
+			path = "Verical Scrolling";
+			sourceTree = "<group>";
+		};
+		F77B25462002A4BA000CBF21 /* Image Pinching */ = {
+			isa = PBXGroup;
+			children = (
+				F77B254220029D54000CBF21 /* PinchToZoomViewController.swift */,
+			);
+			path = "Image Pinching";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +169,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F77B2541200298AB000CBF21 /* PagingViewController.swift in Sources */,
 				F77B253120028FE5000CBF21 /* ViewController.swift in Sources */,
+				F77B25482002A4D5000CBF21 /* TwitterProfileViewController.swift in Sources */,
 				F77B252F20028FE5000CBF21 /* AppDelegate.swift in Sources */,
+				F77B254320029D54000CBF21 /* PinchToZoomViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
